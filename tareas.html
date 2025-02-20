@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="task-container">
+        <h1>Lista de Tareas</h1>
+
+        <input type="text" id="taskInput" placeholder="Escribe una tarea..." />
+        <button onclick="addTask()">Agregar Tarea</button>
+
+        <h2>Contadores de Tareas</h2>
+        <p>Tareas Completadas: <span id="completedCount">0</span></p>
+        <p>Tareas Incompletas: <span id="incompleteCount">0</span></p>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
